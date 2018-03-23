@@ -31,22 +31,46 @@ body {
 
 .column1 {
   color: lightgrey;
-  top: 40%;
-  left: 100px; 
+  top: 35%;
+  left: 90px; 
   position: fixed;
-  font-size: 40px;
-  font-family: 'Helvetica Narrow', sans-serif;
+  font-size: 60px;
+  font-family: 'Text Me One', sans-serif;
+  letter-spacing: .1em;
+  padding: 0%;
 }
 
-.slogan {
+.column2 {
+  color: lightgrey;
+  top: 45%;
+  left: 90px; 
+  position: fixed;
+  font-size: 60px;
+  font-family: 'Text Me One', sans-serif;
+  letter-spacing: .1em;
+  padding: 0%;
+}
+
+.column3 {
+  color: lightgrey;
+  top: 55%;
+  left: 90px; 
+  position: fixed;
+  font-size: 60px;
+  font-family: 'Text Me One', sans-serif;
+  letter-spacing: .1em;
+  padding: 0%;
+}
+
+/* .slogan {
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Text Me One', sans-serif;
   color: lightgrey;
   font-size: 30px;
-  top: 70%;
-  left: 100px; 
+  top: 86%;
+  left: 450px; 
   position: fixed;
-}
+} */
 
 
 .sidebar {
@@ -63,6 +87,6 @@ body {
   bottom: 0;
   left: 0;
   position: fixed;
-  height: 100px;
+  height: 80px;
   padding-left: 6.5%;
 }
