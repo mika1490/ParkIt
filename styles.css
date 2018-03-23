@@ -35,7 +35,7 @@ body {
   left: 90px; 
   position: fixed;
   font-size: 60px;
-  font-family: 'Text Me One', sans-serif;
+  font-family: 'Padauk', sans-serif;
   letter-spacing: .1em;
   padding: 0%;
 }
@@ -46,7 +46,7 @@ body {
   left: 90px; 
   position: fixed;
   font-size: 60px;
-  font-family: 'Text Me One', sans-serif;
+  font-family: 'Padauk', sans-serif;
   letter-spacing: .1em;
   padding: 0%;
 }
@@ -57,7 +57,7 @@ body {
   left: 90px; 
   position: fixed;
   font-size: 60px;
-  font-family: 'Text Me One', sans-serif;
+  font-family: 'Padauk', sans-serif;
   letter-spacing: .1em;
   padding: 0%;
 }
@@ -77,16 +77,16 @@ body {
   display: flex;
   float: right;
   top: 15%;
-  right: 110px;  
+  right: 140px;  
   height: 100%;
   position: fixed;
 }
 
 .apple {
   display: flex;
-  bottom: 0;
+  bottom: 2%;
   left: 0;
   position: fixed;
   height: 80px;
-  padding-left: 6.5%;
+  padding-left: 5.5%;
 }
