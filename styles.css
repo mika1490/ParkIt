@@ -1,9 +1,10 @@
 body {
   margin: 0px;
   padding: 0px;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
-  background-color: black
+  background-color: black;
+  position:fixed;
 }
 
 .page {
@@ -12,30 +13,56 @@ body {
   flex-flow: row nowrap;
   height: 100vh;
   width: 100%;
-  position: relative;
+  position:fixed;
 }
 
 #header, img {
+  display: flex;
   float: left;
-  /* height: 80px; */
   height: 80%;
-  z-index: 50;
+  position: relative;
 }
 
-/* #content, .column1 {
+.logo {
+  display: flex;
+  float: left;
+  height: 80%;
+}
+
+.column1 {
   color: lightgrey;
-} */
+  top: 40%;
+  left: 100px; 
+  position: fixed;
+  font-size: 40px;
+  font-family: 'Helvetica Narrow', sans-serif;
+}
+
+.slogan {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgrey;
+  font-size: 30px;
+  top: 70%;
+  left: 100px; 
+  position: fixed;
+}
+
 
 .sidebar {
   display: flex;
   float: right;
-  position: absolute;
-  top: 400px;
-  right: 100px;  
+  top: 15%;
+  right: 110px;  
+  height: 100%;
+  position: fixed;
 }
 
 .apple {
   display: flex;
-  position: absolute;
-  
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 100px;
+  padding-left: 6.5%;
 }
