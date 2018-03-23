@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black
+}
+
+.page {
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#header, img {
+  float: left;
+  /* height: 80px; */
+  height: 80%;
+  z-index: 50;
+}
+
+/* #content, .column1 {
+  color: lightgrey;
+} */
+
+.sidebar {
+  display: flex;
+  float: right;
+  position: absolute;
+  top: 400px;
+  right: 100px;  
+}
+
+.apple {
+  display: flex;
+  position: absolute;
+  
+}
